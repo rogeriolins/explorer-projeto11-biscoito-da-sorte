@@ -1,0 +1,38 @@
+:root {
+  --color-pri: #84d1ae;
+  --color-sec: #214b37;
+  --color-white: #fff;
+
+  --color-name: #1a3829;
+
+  --color-background-input: #dce2e9;
+  --color-background-button: #103020;
+  --color-background-button-hover: #155334;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    290deg,
+    var(--color-pri) 0%,
+    var(--color-sec) 100%
+  );
+
+  display: grid;
+  place-items: center;
+  height: 100vh;
+
+  margin: -12rem;
+}
+
+body,
+input,
+button {
+  font-family: "DM Sans", sans-serif;
+}
